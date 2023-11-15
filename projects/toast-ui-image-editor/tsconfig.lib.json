@@ -3,6 +3,7 @@
   "compilerOptions": {
     "outDir": "../../out-tsc/lib",
     "downlevelIteration": true,
+    "declarationMap": true,
     "target": "es2015",
     "module": "esnext",
     "moduleResolution": "node",
