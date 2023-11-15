@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ToastUiImageEditorModule } from 'toast-ui-image-editor';
+import { ToastUiImageEditorModule } from 'projects/toast-ui-image-editor/src/public_api';
 
 @NgModule({
   declarations: [AppComponent],
