@@ -18,7 +18,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format": "prettier --write \"src/**/*.{js,ts,html,css}\"",
-    "format:projects": "prettier --write \"projects/**/*.{js,ts,html,css}\""
+    "format:projects": "prettier --write \"projects/**/*.{js,ts,html,css}\"",
+    "build-lib": "ng build toast-ui-image-editor",
+    "copy-readme": "cp ./README.md ./dist/toast-ui-image-editor",
+    "npm-pack": "npm run copy-readme && cd dist/toast-ui-image-editor && npm pack",
+    "package": "npm run build-lib && npm run npm-pack",
+    "pub": "cd dist/toast-ui-image-editor && npm version patch && npm publish"
   },
   "private": true,
   "dependencies": {

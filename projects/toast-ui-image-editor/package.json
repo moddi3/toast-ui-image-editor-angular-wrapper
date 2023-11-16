@@ -1,5 +1,5 @@
 {
-  "name": "ngx-tui-image-editor",
+  "name": "@moddi3/ngx-tui-image-editor",
   "version": "7.0.2",
   "description": "A simple Angular6+ wrapper for TOAST UI Image Editor",
   "author": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper"
+    "url": "https://github.com/moddi3/toast-ui-image-editor-angular-wrapper"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -15,7 +15,7 @@
     "@angular/core": "16.2.12"
   },
   "dependencies": {
-    "tslib": "^2.0.0",
+    "tslib": "^2.6.2",
     "tui-image-editor": "^3.5.1"
   },
   "devDependencies": {}
